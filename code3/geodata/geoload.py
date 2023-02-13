@@ -51,6 +51,8 @@ for line in fh:
 
     parms = dict()
     parms["address"] = address
+    # parms['place_id'] = 'ChIJZcS6Qt-dfDURkhQVGgzKLzg'
+
     if api_key is not False: parms['key'] = api_key
     url = serviceurl + urllib.parse.urlencode(parms)
 
